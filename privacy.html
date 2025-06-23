@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - psr-bot</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 20px auto; max-width: 800px; padding: 0 15px; }
+        h1 { color: #333; text-align: center; }
+        h2 { color: #444; margin-top: 1.5em; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
+        p, li { margin-bottom: 0.8em; }
+        ul { padding-left: 20px; }
+        strong { font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for psr-bot</h1>
+    <p><strong>Last Updated:</strong> June 23, 2025</p>
+
+    <p>This Privacy Policy describes how psr-bot (the "Bot"), operated by u/keithj5000, collects, uses, and handles information in connection with its operation on the Reddit subreddit r/PhotoshopRequest.</p>
+
+    <h2>1. Information We Process</h2>
+    <p>The Bot interacts with publicly available Reddit data and data generated through its operations. This includes:</p>
+    <ul>
+        <li><strong>Post Information:</strong> Titles, body content (selftext), flair information, post IDs, and permalinks of posts made in r/PhotoshopRequest.</li>
+        <li><strong>User Information:</strong> Reddit usernames and user IDs of post authors and commenters, where necessary for Bot functions (e.g., tracking solves, probation).</li>
+        <li><strong>Comment Information:</strong> Content of comments made in reply to the Bot or containing specific commands (e.g., "!solved").</li>
+        <li><strong>Bot Operational Data:</strong> Data stored temporarily in a Redis database to manage post statuses, request types, user solve counts, user probation status, and other operational details necessary for the Bot's functions.</li>
+        <li><strong>Third-Party API Data:</strong> For the purpose of suggesting post categorization (e.g., "Paid" or "Free" requests), the Bot sends post titles and body content to Google's Generative AI API (Gemini).</li>
+    </ul>
+
+    <h2>2. How We Use Information</h2>
+    <p>The information processed by the Bot is used to:</p>
+    <ul>
+        <li>Provide its core functionalities, such as tracking post statuses, managing user flairs, and sending automated messages/reminders related to posts.</li>
+        <li>Analyze post content (titles and bodies) using Google's Gemini API to determine if a post is likely a "Paid" or "Free" request.</li>
+        <li>Report potential mismatches between AI-suggested categorization and user-set flair to the moderators of r/PhotoshopRequest for review.</li>
+        <li>Assist moderators with community management tasks.</li>
+    </ul>
+
+    <h2>3. Information Sharing and Third Parties</h2>
+    <ul>
+        <li><strong>Google Gemini API:</strong> Post titles and body content are sent to Google's Generative AI API (Gemini) for analysis. This data processing is subject to Google's terms and privacy policies. We encourage you to review Google's policies, which can be found at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>. The Bot does not send Reddit usernames or other directly personally identifiable user information to the Gemini API beyond what might be incidentally contained within the post title or body itself that is submitted for analysis.</li>
+        <li><strong>Reddit:</strong> All Bot activity occurs on the Reddit platform and is subject to Reddit's own Privacy Policy and User Agreement.</li>
+        <li>We do not sell or rent any user-specific data to third parties.</li>
+    </ul>
+
+    <h2>4. Data Storage and Retention</h2>
+    <ul>
+        <li>Operational data necessary for the Bot's functions (e.g., post status, user solves) is stored in a Redis database. This data is retained as long as it is necessary for the Bot's operation or for historical tracking within the community (e.g., leaderboards).</li>
+        <li>Data related to specific posts may be cleared manually by moderators using Bot commands or automatically after a certain period if deemed no longer necessary for active operations.</li>
+        <li>The Bot does not store the direct responses or extensive logs from the Google Gemini API beyond what is necessary for immediate operational decisions (like creating a mod report). Google maintains its own logs according to its policies.</li>
+    </ul>
+
+    <h2>5. Data Security</h2>
+    <p>We take reasonable measures to protect the information processed by the Bot from loss, misuse, and unauthorized access or disclosure. However, no internet-based service can be 100% secure.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>The Bot is not directed to individuals under the age of 13 (or the relevant age of digital consent in your jurisdiction). We do not knowingly collect personal information from children under this age.</p>
+
+    <h2>7. Your Choices</h2>
+    <p>As the Bot primarily processes publicly available Reddit data for its automated tasks, your main interaction regarding data is through your use of Reddit and your participation in r/PhotoshopRequest. If you have concerns about how the Bot is processing data related to your posts or comments, please contact the moderators of r/PhotoshopRequest or u/keithj5000.</p>
+
+    <h2>8. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. If we make changes, we will notify you by revising the "Last Updated" date at the top of this policy and may provide additional notice, such as an announcement in r/PhotoshopRequest.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact u/keithj5000 via Reddit private message.</p>
+</body>
+</html>
